@@ -1,0 +1,13 @@
+dist: jammy
+group: dev
+language: erlang
+arch:
+  - amd64
+  - arm64
+otp_release:
+  - 24.2.1
+  - 24.3.1
+install: skip
+script:
+  - erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell
+  
