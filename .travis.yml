@@ -1,9 +1,6 @@
 dist: jammy
 group: dev
 language: erlang
-arch:
-  - amd64
-  - arm64
 otp_release:
   - 24.2.1
   - 24.3.1
